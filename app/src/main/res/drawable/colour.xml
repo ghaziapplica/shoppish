@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <resources>
+        <color android:name="primary_color">#FF6347</color>
+        <color android:name="discount_color">#32CD32</color>
+    </resources>
+
+</selector>

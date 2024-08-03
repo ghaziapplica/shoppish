@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button
+        android:id="@+id/your_button_id"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Your Button Text"
+        android:background="#00FF00"
+        android:textColor="#FFFFFF"  />
+
+</selector>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "337708666221",
+    "project_id": "shoppish-1",
+    "storage_bucket": "shoppish-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337708666221:android:15de205abb237e8c749e64",
+        "android_client_info": {
+          "package_name": "com.example.shoppish"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfAnUixJ5_cJ_VWMJxJfhIIn7LvqzdNUI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
