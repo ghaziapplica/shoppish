@@ -28,6 +28,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.input.key.Key.Companion.R
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
@@ -123,23 +124,23 @@ fun Signup(navController: NavHostController,
                 horizontalArrangement = Arrangement.SpaceBetween
             ) {
                 Text(text = authViewModel.already,
-                    color = (colorResource(id = R.color.text_color)),
+//                    color = (colorResource(id = R.color.text_color)),
                     modifier = Modifier
                         .align(Alignment.CenterVertically)
                         .offset(x = (100.dp))
                         .clickable { navController.navigate(AuthScreen.Login.route) }
 
                 )
-                IconButton(
-                    onClick = { /* Your back button action */ },
-                ) {
-                    Icon(
-                        painter = painterResource(id = R.drawable.arrowright),
-                        contentDescription = null,
-                        modifier = Modifier.size(30.dp)
-                        // Adjust icon size as needed
-                    )
-                }
+//                IconButton(
+//                    onClick = { /* Your back button action */ },
+//                ) {
+//                    Icon(
+////                        painter = painterResource(id = R.drawable.arrowright),
+//                        contentDescription = null,
+//                        modifier = Modifier.size(30.dp)
+//                        // Adjust icon size as needed
+//                    )
+//                }
             }
             Spacer(modifier = Modifier.height(32.dp))
 
